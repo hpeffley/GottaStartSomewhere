@@ -61,8 +61,11 @@
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:id="@+id/tvDisplay"
+        android:background="@android:drawable/editbox_background"
+        android:textAlignment="center"
+        android:layout_marginTop="14dp"
         android:layout_below="@+id/btnProcess"
-        android:id="@+id/tvDisplay" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
